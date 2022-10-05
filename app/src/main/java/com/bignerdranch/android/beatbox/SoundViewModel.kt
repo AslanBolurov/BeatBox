@@ -19,8 +19,8 @@ class SoundViewModel(
     var sound:Sound? = null
         set(sound) {
             field=sound
-            notifyChange()
-//            notifyPropertyChanged(BR.title)
+//             notifyChange()
+           notifyPropertyChanged(BR.title)
         }
     @get:Bindable
     val title:String?
